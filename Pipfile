@@ -8,6 +8,8 @@ flask = "*"
 waitress = "*"
 alembic = "*"
 pymysql = "*"
+marshmallow = "*"
+flask-bcrypt = "*"
 
 [dev-packages]
 

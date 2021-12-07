@@ -22,7 +22,7 @@ class Event(Base):
     __tablename__ = 'event'
     id = Column(Integer, primary_key=True)
     name = Column(String(32), nullable=False)
-    date = Column(datetime, nullable=False)
+    date = Column(Date, nullable=False)
 
 
 class Ticket(Base):
